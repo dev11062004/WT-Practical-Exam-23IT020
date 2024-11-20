@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Flipkart.com</title>
+
+ 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap" rel="stylesheet">
+
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="fk.css" />
+</head>
+
+<body>
+
+  <header>
+
+    
+    <div class="navBar">
+
+      <div class="logoSection">
+        <div>
+          <img src="https://e7.pngegg.com/pngimages/946/191/png-clipart-flipkart-e-commerce-logo-bangalore-chief-executive-others-miscellaneous-blue-thumbnail.png" class="flipkart-logo" alt="flipkart-logo" />
+        </div>
+
+        <div>
+          <p class="logo-text">Explore <span id="plus">Plus+</span></p>
+        </div>
+      </div>
+
+      <div class="searchBox">
+        <input class="input" type="text" placeholder="Search for products, brands and more" />
+
+        <div class="search-logo">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+      </div>
+
+      <div class="loginBox">
+        <div class="login">Login</div>
+      </div>
+
+      <div class="becomeSellerBox">
+        <p>Become a Seller</p>
+      </div>
+
+      <div class="moreBox">
+        <p>More</p>
+      </div>
+
+      <div class="cartBox">
+        <i class="fa-solid fa-cart-shopping"></i>
+        Cart
+      </div>
+    </div>
+  </header>
+
+
+  
+
+
+  <div class="belowNavBar">
+
+    <div class="smallCard">
+      <img src="data:image/jpeg;base64,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" alt="menuIcon1" class="card">
+      <p>Grocery</p>
+
+    </div>
+
+    <div class="smallCard">
+      <img src="https://w7.pngwing.com/pngs/400/734/png-transparent-hand-holding-phone-mockup-thumbnail.png" alt="menuIcon1" class="card">
+      <p>Mobiles</p>
+    </div>
+
+    <div class="smallCard">
+      <img src="https://w7.pngwing.com/pngs/827/140/png-transparent-t-shirt-fashion-clothing-mens-fashion-tshirt-abdomen-formal-wear-thumbnail.png" alt="menuIcon1" class="card">
+      <p>Fashion</p>
+    </div>
+
+    <div class="smallCard">
+      <img src="https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDI0LTA4L3Jhd3BpeGVsX29mZmljZV8zM19waG90b2dyYXBoeV9vZl9uZXdfZ2VuXzIwMjRfZ2FtaW5nX2xhcHRvcF9mbF81NzY2NjNlNy1mYWY2LTRjZTQtYjk5My0wYzhlMzNmOWE3NDMucG5n.png" alt="menuIcon1" class="card">
+      <p>Laptops</p>
+    </div>
+
+    <div class="smallCard">
+      <img src="https://images.rawpixel.com/image_png_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvcHg1NjUwMzItaW1hZ2UtMDItcm00ODQta3pwMnF0MnIucG5n.png" alt="menuIcon1" class="card">
+      <p>Home</p>
+    </div>
+
+    <div class="smallCard">
+      <img src="https://e7.pngegg.com/pngimages/697/440/png-clipart-home-appliance-consumer-electronics-lg-electronics-laptop-laptop-kitchen-electronics-thumbnail.png" alt="menuIcon1" class="card">
+      <p>Electronic</p>
+    </div>
+
+    <div class="smallCard">
+      <img src="https://w7.pngwing.com/pngs/715/843/png-transparent-toy-graphy-illustration-toys-daquan-child-baby-photography-thumbnail.png" alt="menuIcon1" class="card">
+      <p>Travel</p>
+    </div>
+
+    <div class="smallCard">
+      <img src="https://w7.pngwing.com/pngs/715/843/png-transparent-toy-graphy-illustration-toys-daquan-child-baby-photography-thumbnail.png" alt="menuIcon1" class="card">
+      <p>Toys</p>
+    </div>
+
+    <div class="smallCard">
+      <img src="https://w7.pngwing.com/pngs/53/536/png-transparent-orange-and-black-sports-bike-suzuki-hayabusa-motorcycle-orange-mountain-bikes-sport-bike-suzuki-hayabusa-sport-motorcycle-bike-bicycle-car-motorcycle.png" alt="menuIcon1" class="card">
+      <p>Bikes</p>
+    </div>
+
+  </div>
+
+
+  <div class="line"></div>
+
+  <!-------------- MAIN IMG -------------->
+  <div class="heroSection">
+
+  </div>
+
+  <div class="line"></div>
+
+  <!-------------- ITEM SECTION -------------->
+  <div class="itemSection">
+
+    <div class="item">
+      <div class="itemHeadName">
+        <p>Get Set for Sports</p>
+      </div>
+
+      <div class="viewAllSection">
+        <div class="viewAllButton">
+          <p class="viewAllText">VIEW ALL</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="item">
+      <img src="https://e7.pngegg.com/pngimages/726/229/png-clipart-t-shirt-jersey-sleeve-clothing-fashion-awesome-bowling-shirts-for-men-tshirt-blue-thumbnail.png" alt="cloth1" class="itemImg">
+      <p class="itemDescription">Men's T-shirt</p>
+      <p class="buyNowText">Buy Now</p>
+    </div>
+
+    <div class="item">
+      <img src="https://w7.pngwing.com/pngs/829/741/png-transparent-gray-crew-neck-t-shirt-t-shirt-polo-shirt-dress-shirt-gray-t-shirt-tshirt-fashion-color-thumbnail.png" alt="cloth2" class="itemImg">
+      <p class="itemDescription">Jackets</p>
+      <p class="buyNowText">Buy Now</p>
+    </div>
+
+    
+
+  </div>
+
+  <div class="line"></div>
+
+
+  <div class="itemSection">
+
+    <div class="item">
+      <div class="itemHeadName">
+        <p>Best of Electronics</p>
+      </div>
+
+      <div class="viewAllSection">
+        <div class="viewAllButton">
+          <p class="viewAllText">VIEW ALL</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="item">
+      <img src="https://png.pngtree.com/png-vector/20210303/ourmid/pngtree-mobile-phone-png-smartphone-camera-mockup-png-image_3009179.jpg" alt="electronic img" class="itemImg">
+      <p class="itemDescription"> Iphone</p>
+      <p class="buyNowText">Buy Now</p>
+    </div>
+
+    <div class="item">
+      <img src="https://w7.pngwing.com/pngs/536/556/png-transparent-electronics-accessory-electrical-engineering-electronic-engineering-electronic-component-alcohol-lamp-electronics-electrical-wires-cable-engineering-thumbnail.png" alt="electronic img" class="itemImg">
+      <p class="itemDescription"> E Gadgets</p>
+      <p class="buyNowText">Buy Now</p>
+    </div>
+
+  
+
+    
+
+  </div>
+
+  <div class="line"></div>
+
+  <div class="itemSection">
+
+    
+
+
+
+  
+ 
+
+    
+
+  </div>
+
+  <div class="line"></div>
+
+  <div class="itemSection">
+
+    <div class="item">
+      <div class="itemHeadName">
+        <p>Top Deals for Today</p>
+      </div>
+
+      <div class="viewAllSection">
+        <div class="viewAllButton">
+          <p class="viewAllText">VIEW ALL</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="item">
+      <img src="https://png.pngtree.com/png-vector/20230414/ourmid/pngtree-guitar-music-note-musical-instrument-cartoon-illustration-png-image_6694574.png" alt="topDeal" class="itemImg">
+      <p class="itemDescription">Musical Instrument</p>
+      <p class="buyNowText">Buy Now</p>
+    </div>
+
+    <div class="item">
+      <img src="https://png.pngtree.com/png-vector/20240309/ourmid/pngtree-the-smartwatch-banner-png-image_11919210.png" alt="topDeal" class="itemImg">
+      <p class="itemDescription">Smart Watches</p>
+      <p class="buyNowText">Buy Now</p>
+    </div>
+
+    <div class="item">
+      <img src="https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA0L3N2MTQ5MTg0LWltYWdlLTAyLWpvYjcwNi5wbmc.png" alt="topDeal" class="itemImg">
+      <p class="itemDescription">Umbrella</p>
+      <p class="buyNowText">Buy Now</p>
+    </div>
+
+    <div class="item">
+      <img src="https://png.pngtree.com/png-vector/20230928/ourmid/pngtree-cute-bear-teddy-toy-png-image_10149481.png" alt="topDeal" class="itemImg">
+      <p class="itemDescription">Soft Toys</p>
+      <p class="buyNowText">Buy Now</p>
+    </div>
+  </div>
+
+
+  <footer>
+
+    <div class="footerSection">
+
+      <div class="footerLeft">
+
+        <div class="footerInfo">
+          <p class="footerInfoHeading">ABOUT</p>
+          <div class="footerContent">
+            <p>Contact Us</p>
+            <p>About Us</p>
+            <p>Careers</p>
+            <p>Flipkart Stories</p>
+            <p>Press</p>
+            <p>Flipkart Wholesale</p>
+            <p>Corporate Information</p>
+          </div>
+        </div>
+
+        <div class="footerInfo">
+          <p class="footerInfoHeading">HELP</p>
+          <div class="footerContent">
+            <p>Payments</p>
+            <p>Shipping</p>
+            <p>Cancellation & Returns</p>
+            <p>FAQ</p>
+            <p>Report Infringement</p>
+          </div>
+        </div>
+
+        <div class="footerInfo">
+          <p class="footerInfoHeading">CONSUMER POLICY</p>
+          <div class="footerContent">
+            <p>Cancellation & Returns</p>
+            <p>Terms Of Use</p>
+            <p>Security</p>
+            <p>Privacy</p>
+            <p>Sitemap</p>
+            <p>Grievance Redressal</p>
+            <p>EPR Compliance</p>
+          </div>
+        </div>
+
+
+        <div class="footerInfo">
+          <p class="footerInfoHeading">SOCIAL</p>
+          <div class="footerContent">
+            <p>Facebook</p>
+            <p>Twitter</p>
+            <p>YouTube</p>
+          </div>
+        </div>
+
+      </div>
+
+
+      <div class="footerRight">
+
+        <div class="footerInfo">
+
+          <p class="footerInfoHeading">Mail Us:</p>
+          <div class="footerContent">
+            <p>Flipkart Internet Private Limited,</p>
+            <p>Buildings Alyssa, Begonia &</p>
+            <p>Clove Embassy Tech Village,</p>
+            <p>Outer Ring Road, Devarabeesanahalli Village,</p>
+            <p>Bengaluru, 560103,</p>
+            <p>Karnataka, India</p>
+          </div>
+        </div>
+
+        <div class="footerInfo">
+          <p class="footerInfoHeading">Registered Office Address:</p>
+          <div class="footerContent">
+            <p>Flipkart Internet Private Limited,</p>
+            <p>Buildings Alyssa, Begonia &</p>
+            <p>Clove Embassy Tech Village,</p>
+            <p>Outer Ring Road, Devarabeesanahalli Village,</p>
+            <p>Bengaluru, 560103,</p>
+            <p>Karnataka, India</p>
+            <p>CIN : U51109KA2012PTC066107</p>
+            <p>Telephone: 044-45614700</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <div class="footerExtras">
+      <span><i class="fa-solid fa-suitcase" style="color: #ffe500;"></i> Become a Seller</span>
+      <span><i class="fa-solid fa-star" style="color: #ffe500;"></i> Advertise</span>
+      <span><i class="fa-solid fa-gift" style="color: #ffe500;"></i> Gift Cards</span>
+      <span><i class="fa-solid fa-circle-question" style="color: #ffe500;"></i> Help Center</span>
+      <span>© 2007-2023 Flipkart.com</span>
+      <span><img src="images/payment-method.svg" alt="payment-method"></span>
+
+    </div>
+
+  </footer>
+
+
+</body>
+
+</html>
+
+
